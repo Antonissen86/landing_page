@@ -1,0 +1,91 @@
+body {
+    background-color: #1F2937;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#header-container{
+    display: flex;
+    border: 1px solid red; 
+    flex: 1;
+}
+
+.header-logo{
+    
+    border: 1px solid white;
+    min-width: 150px;
+    
+
+}
+
+#header-menu{
+    display: flex;
+    border: 1px solid blue; 
+    justify-content: right;
+    flex: 1;
+}
+
+.menu-item {
+    
+    border: 1px solid green;
+    padding: 10px;
+   
+}
+
+#images{
+    display: flex;
+    flex: 1;
+    border: 1px solid purple;
+    justify-content: center;
+}
+
+#images #aside{flex: 1;}
+
+#wrapper{
+    border: 1px solid blue;
+    flex: 6;
+
+}
+
+#wrapper .content{
+    display: flex;
+    border: 1px solid green;
+
+}
+
+h1{
+    border: 1px solid white;
+    text-align: center;
+}
+
+.left{
+    border: 1px solid white;
+    flex: 1;
+}
+
+.right{
+    border: 1px solid white;
+    flex: 1;
+}
+
+#quote{
+    flex: 1;
+    border: 1px solid peru;
+}
+
+#cta{
+    flex: 1;
+    border: 1px solid yellow;
+}
+
+#footer{
+    flex: 1;
+    border: 1px solid black;
+}
